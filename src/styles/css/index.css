@@ -1,0 +1,131 @@
+@import url("./fonts.css");
+
+body {
+  margin: 0;
+  text-align: center;
+  background: #006400	;
+  min-height: 100%;
+}
+* {
+  font-family: Sailec;
+  box-sizing: border-box;
+}
+h1 {
+  color: #ffaf30;
+  font-size: 50px;
+  font-family: Boing;
+  margin: 1rem auto;
+}
+h2 {
+  color: #ffaf30;
+}
+p {
+  font-size: 20px;
+  color: #fff;
+}
+span {
+  color: #ffaf30;
+}
+button {
+  background-color: #ffaf30;
+  font-size: 20px;
+  padding: 10px 28px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: #ffaf30;
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0px 2px 7.5px 0px #2f3033;
+}
+.container {
+  width: 80%;
+  margin: 3rem auto;
+  height: auto;
+  padding: 2rem;
+  background-color: #228B22;
+  /* border: 1px solid #3558f5; */
+  border-radius: 16px;
+  box-shadow: 0px 5px 15px 0px #2f3033;
+}
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 400px;
+}
+
+.todo {
+  background: #ffffff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 12px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#roleName {
+  color: #ffaf30;
+  font-size: 30px;
+  font-weight: bold;
+}
+.todo-font {
+  color: #3f2906;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  /* padding: 25px; */
+}
+.flex {
+  display: flex;
+}
+.col-25 {
+  flex: 25%;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  color: #ffffff;
+  background: inherit;
+  padding: 0 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  /* margin-top: 200px; */
+  bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .container {
+    height: 100%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .flex {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col-25 {
+    flex: 100%;
+  }
+}

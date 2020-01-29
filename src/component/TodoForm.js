@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "./App.css";
+import "../styles/css/index.css";
+
 
 const TodoForm = ({ addTodo }) => {
   const [value, setValue] = useState("");
@@ -16,7 +17,7 @@ const TodoForm = ({ addTodo }) => {
       <input
         className="input"
         type="text"
-        placeholder="add todo..."
+        placeholder="Add todo..."
         value={value}
         onChange={e => setValue(e.target.value)}
       />

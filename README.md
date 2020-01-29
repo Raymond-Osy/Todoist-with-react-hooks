@@ -1,6 +1,8 @@
 # Simple Todo list app(React hooks)
 > A simple todo app built to help new engineers @kobolabs get up to speed with react hooks via hands on coding.
 
+![Test Image 1](./src/styles/img/todo.jpg)
+
 ## Please follow these instructions to get started
 
 ```sh
@@ -27,5 +29,5 @@ npm start
 
 ## Meta
 
-Raymond Akalonu – [@Raymond-Osy](https://twitter.com/Rayz_of_Daimond) – raymond.akalonu@gmail.com
+Raymond Akalonu – [@Rayz_of_Daimond](https://twitter.com/Rayz_of_Daimond) – raymond.akalonu@gmail.com
 
